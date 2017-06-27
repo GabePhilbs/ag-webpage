@@ -4,15 +4,30 @@
 	<meta charset="utf-8">
 	<title>ag-webpage</title>
 
-	<!-- JAVASCRIPT -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 
-	<!-- CSS & BOOTSTRAP -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- custom css -->
-	<link rel="stylesheet" href="css/ag-webpage.css"/>
+	<!-- include this in every page -->
+		<!-- JAVASCRIPT -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+		<!-- CSS & BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/ag-webpage.css"/>
+
+	<!-- include until this point -->
+
+	<!-- resources for the timeline -->
+		<link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/timeliner.min.js"></script>
+
+
+	<!-- end of timeline resources -->
+
+
 </head>
 <body>
 
@@ -54,67 +69,45 @@
 		  </div>
 		</nav>
 
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
 
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
+		<!-- beginning of timeline -->
+		<div id="timeline" class="timeline-container">
+		        <div class="timeline-wrapper">
+		                <h2 class="timeline-time">1976</h2>
 
-		<p><br></p>
-		v
+		                <dl class="timeline-series">
 
-		<p><br></p>
+		                        <dt class="timeline-event" id="event01"><a>Event</a></dt>
+		                        <dd class="timeline-event-content" id="event01EX">
+		                                <p>Content about the event goes here.</p>
+		                        </dd>
 
-		vv<p><br></p>
-		<p><br></p>
-		v
-		v
-		v
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		v
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		<p><br></p>
-		v
-		v
-		<p>wololo</p>
+		                        <dt class="timeline-event" id="event02"><a>Another Event</a></dt>
+		                        <dd class="timeline-event-content" id="event02EX">
+		                                <p>Content about the other event.</p>
+		                        </dd>
 
+		                </dl>
+		        </div>
+		        <div class="timeline-wrapper">
+		                <h2 class="timeline-time">1984</h2>
 
+		                <dl class="timeline-series">
+
+		                        <dt class="timeline-event" id="event03"><a>Yet Another Event</a></dt>
+		                        <dd class="timeline-event-content" id="event03EX">
+		                                <p>Content about the event goes here.</p>
+		                        </dd>
+
+		                </dl>
+		        </div>
+		    <br class="clear">
+		</div>
 
 
 
 	<!-- custom script -->
-	<script type="text/javascript" src="script/ag-webpage.js"></script>
+	<script type="text/javascript" src="js/ag-webpage.js"></script>
 
 </body>
 </html>

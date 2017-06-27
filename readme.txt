@@ -1,5 +1,7 @@
  * * * website ideas
 
+-- to do
+
  create pages for each film or each director (either way 8-10 in total)
 
  picture gallery - we use a jquery plugin for this
@@ -7,7 +9,8 @@
  subscribe to our news letter form
  	include a wysiwyg in form
 
-navbar fixed to top - use dropdown menu when mobile (copy this from gabe's travel site, and insert the dropdown)
+
+insert dropdown menu in nav bar
 
 when done, host site at gabe's amazon server, so people can test it on their phones
 
@@ -22,8 +25,8 @@ play some iconic scene on the index page
 
 
 
+-- done
 
 
-
-
+navbar fixed to top copy this from gabe's travel site
 
