@@ -1,0 +1,29 @@
+ * * * website ideas
+
+ create pages for each film or each director (either way 8-10 in total)
+
+ picture gallery - we use a jquery plugin for this
+
+ subscribe to our news letter form
+ 	include a wysiwyg in form
+
+navbar fixed to top - use dropdown menu when mobile (copy this from gabe's travel site, and insert the dropdown)
+
+when done, host site at gabe's amazon server, so people can test it on their phones
+
+time line with the directors, each node in the time line can have a picture and a name, which are links to the directors page (or the page of whatever film of his we used). There might be a plugin for this.
+
+if we do director's pages, we can use the accordion plugin for a list of some of his films with a brief summary
+
+create wishlist button for each film .This might require the use of databases which we did not learn yet. 
+
+play some iconic scene on the index page
+
+
+
+
+
+
+
+
+
