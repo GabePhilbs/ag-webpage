@@ -23,6 +23,26 @@ create wishlist button for each film .This might require the use of databases wh
 play some iconic scene on the index page
 
 
+films
+
+
+I was born, but... 1932
+
+nora inu 1949
+
+gojira 1954
+
+tokyo drifter - 1966
+
+house 1977
+
+tampopo juzo itami 1985
+
+rainy dog 1997
+
+spirited away 2001
+
+outrage 2010
 
 
 -- done
